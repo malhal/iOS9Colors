@@ -15,6 +15,9 @@ Here you will find a UIColor category with the 15 flat colors used by the Maps a
 ##Light Pink, Yellow, Light Pink, Light Pink##
 ![](https://cloud.githubusercontent.com/assets/916912/12307124/4e5c2bbc-ba35-11e5-82da-da082525e91e.png)
 
+##Blue, Green, Blue##
+![](https://cloud.githubusercontent.com/assets/916912/12307494/7485442a-ba37-11e5-9cad-ad6d5a2d8f94.png)
+
 ##Orange, Yellow, Brown, Yellow##
 ![](https://cloud.githubusercontent.com/assets/916912/12307217/cad38212-ba35-11e5-8acf-53944290121f.png)
 
