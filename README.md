@@ -26,6 +26,3 @@ Here you will find a UIColor category with the 15 flat colors used by the Maps a
 
 ##Aqua##
 ![](https://cloud.githubusercontent.com/assets/916912/12307045/dc3bf972-ba34-11e5-9da8-0724ea164b7b.png)
-
-##Grey##
-![](https://cloud.githubusercontent.com/assets/916912/12306910/30879f64-ba34-11e5-83a7-a8408b85a1f3.png)
