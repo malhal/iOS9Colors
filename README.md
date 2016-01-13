@@ -12,7 +12,7 @@ Here you will find the 15 flat colors used by the Maps application on iOS 9. Thi
 ##Purple, Yellow, Red, Grey##
 ![](https://cloud.githubusercontent.com/assets/916912/12307071/fcd504b2-ba34-11e5-8b5e-262f12627afc.png)
 
-##Light Pink, Light Pink, Yellow, Light Pink##
+##Light Pink, Yellow, Light Pink, Light Pink##
 ![](https://cloud.githubusercontent.com/assets/916912/12307124/4e5c2bbc-ba35-11e5-82da-da082525e91e.png)
 
 ##Orange, Yellow, Brown, Yellow##
