@@ -1,7 +1,7 @@
 # iOS9Colors
 UIColor+iOS9Colors
 
-Here you will find the 15 flat colors used by the Maps application on iOS 9. This makes a great set for using in your own app targeting iOS 9. I had tried previous flat color sets but nothing looked as good as Apple's own flat colors used in Maps, so I thought I would create the set and share them here. Here are examples of all the colors, note some are duplicated:
+Here you will find a UIColor category with the 15 flat colors used by the Maps application on iOS 9 in the search categories feature. This makes a great set for using in your own app targeting the iOS 9 UI theme. I had tried previous flat color sets but nothing looked as good as Apple's own flat colors used in Maps, so I thought I would create the set and share them here. Here are examples of all the colors, note some are duplicated:
 
 ##Orange, Yellow, Pink, Blue##
 ![](https://cloud.githubusercontent.com/assets/916912/12306812/a7a338a2-ba33-11e5-83b1-16d8878b80af.png)
