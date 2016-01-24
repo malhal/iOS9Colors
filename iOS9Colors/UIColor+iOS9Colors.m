@@ -11,63 +11,138 @@
 @implementation UIColor (iOS9Colors)
 
 +(UIColor*)iOS9brown{
-    return [UIColor colorWithRed:204.0f/255.0f green:134.0f/255.0f blue:73.0f/255.0f alpha:1.0f];
+    static UIColor *c = nil;
+    static dispatch_once_t onceToken;
+    dispatch_once(&onceToken, ^{
+        c = [UIColor colorWithRed:204.0f/255.0f green:134.0f/255.0f blue:73.0f/255.0f alpha:1.0f];
+    });
+    return c;
 }
 
 +(UIColor*)iOS9yellow{
-    return [UIColor colorWithRed:247.0f/255.0f green:179.0f/255.0f blue:20.0f/255.0f alpha:1.0f];
+    static UIColor *c = nil;
+    static dispatch_once_t onceToken;
+    dispatch_once(&onceToken, ^{
+        c = [UIColor colorWithRed:247.0f/255.0f green:179.0f/255.0f blue:20.0f/255.0f alpha:1.0f];
+    });
+    return c;
 }
 
 +(UIColor*)iOS9orange{
-    return [UIColor colorWithRed:255.0f/255.0f green:141.0f/255.0f blue:54.0f/255.0f alpha:1.0f];
+    static UIColor *c = nil;
+    static dispatch_once_t onceToken;
+    dispatch_once(&onceToken, ^{
+        c = [UIColor colorWithRed:255.0f/255.0f green:141.0f/255.0f blue:54.0f/255.0f alpha:1.0f];
+    });
+    return c;
 }
 
 +(UIColor*)iOS9blue{
-    return [UIColor colorWithRed:41.0f/255.0f green:162.0f/255.0f blue:255.0f/255.0f alpha:1.0f];
+    static UIColor *c = nil;
+    static dispatch_once_t onceToken;
+    dispatch_once(&onceToken, ^{
+        c = [UIColor colorWithRed:41.0f/255.0f green:162.0f/255.0f blue:255.0f/255.0f alpha:1.0f];
+    });
+    return c;
 }
 
 +(UIColor*)iOS9green{
-    return [UIColor colorWithRed:31.0f/255.0f green:196.0f/255.0f blue:53.0f/255.0f alpha:1.0f];
+    static UIColor *c = nil;
+    static dispatch_once_t onceToken;
+    dispatch_once(&onceToken, ^{
+        c = [UIColor colorWithRed:31.0f/255.0f green:196.0f/255.0f blue:53.0f/255.0f alpha:1.0f];
+    });
+    return c;
 }
 
 +(UIColor*)iOS9purple{
-    return [UIColor colorWithRed:191.0f/255.0f green:128.0f/255.0f blue:255.0f/255.0f alpha:1.0f];
+    static UIColor *c = nil;
+    static dispatch_once_t onceToken;
+    dispatch_once(&onceToken, ^{
+        c = [UIColor colorWithRed:191.0f/255.0f green:128.0f/255.0f blue:255.0f/255.0f alpha:1.0f];
+    });
+    return c;
 }
 
 +(UIColor*)iOS9red{
-    return [UIColor colorWithRed:255.0f/255.0f green:94.0f/255.0f blue:94.0f/255.0f alpha:1.0f];
+    static UIColor *c = nil;
+    static dispatch_once_t onceToken;
+    dispatch_once(&onceToken, ^{
+        c = [UIColor colorWithRed:255.0f/255.0f green:94.0f/255.0f blue:94.0f/255.0f alpha:1.0f];
+    });
+    return c;
 }
 
 +(UIColor*)iOS9lightBlue{
-    return [UIColor colorWithRed:122.0f/255.0f green:158.0f/255.0f blue:255.0f/255.0f alpha:1.0f];
+    static UIColor *c = nil;
+    static dispatch_once_t onceToken;
+    dispatch_once(&onceToken, ^{
+        c = [UIColor colorWithRed:122.0f/255.0f green:158.0f/255.0f blue:255.0f/255.0f alpha:1.0f];
+    });
+    return c;
 }
 
 +(UIColor*)iOS9pink{
-    return [UIColor colorWithRed:227.0f/255.0f green:113.0f/255.0f blue:212.0f/255.0f alpha:1.0f];
+    static UIColor *c = nil;
+    static dispatch_once_t onceToken;
+    dispatch_once(&onceToken, ^{
+        c = [UIColor colorWithRed:227.0f/255.0f green:113.0f/255.0f blue:212.0f/255.0f alpha:1.0f];
+    });
+    return c;
 }
 
 +(UIColor*)iOS9aqua{
-    return [UIColor colorWithRed:10.0f/255.0f green:179.0f/255.0f blue:242.0f/255.0f alpha:1.0f];
+    static UIColor *c = nil;
+    static dispatch_once_t onceToken;
+    dispatch_once(&onceToken, ^{
+        c = [UIColor colorWithRed:10.0f/255.0f green:179.0f/255.0f blue:242.0f/255.0f alpha:1.0f];
+    });
+    return c;
 }
 
 +(UIColor*)iOS9grey{
-    return [UIColor colorWithRed:134.0f/255.0f green:153.0f/255.0f blue:191.0f/255.0f alpha:1.0f];
+    static UIColor *c = nil;
+    static dispatch_once_t onceToken;
+    dispatch_once(&onceToken, ^{
+        c = [UIColor colorWithRed:134.0f/255.0f green:153.0f/255.0f blue:191.0f/255.0f alpha:1.0f];
+    });
+    return c;
 }
 
 +(UIColor*)iOS9lightBrown{
-    return [UIColor colorWithRed:210.0f/255.0f green:168.0f/255.0f blue:78.0f/255.0f alpha:1.0f];
+    static UIColor *c = nil;
+    static dispatch_once_t onceToken;
+    dispatch_once(&onceToken, ^{
+        c = [UIColor colorWithRed:210.0f/255.0f green:168.0f/255.0f blue:78.0f/255.0f alpha:1.0f];
+    });
+    return c;
 }
 
 +(UIColor*)iOS9lightGrey{
-    return [UIColor colorWithRed:166.0f/255.0f green:166.0f/255.0f blue:166.0f/255.0f alpha:1.0f];
+    static UIColor *c = nil;
+    static dispatch_once_t onceToken;
+    dispatch_once(&onceToken, ^{
+        c = [UIColor colorWithRed:166.0f/255.0f green:166.0f/255.0f blue:166.0f/255.0f alpha:1.0f];
+    });
+    return c;
 }
 
 +(UIColor*)iOS9lightGreen{
-    return [UIColor colorWithRed:120.0f/255.0f green:199.0f/255.0f blue:10.0f/255.0f alpha:1.0f];
+    static UIColor *c = nil;
+    static dispatch_once_t onceToken;
+    dispatch_once(&onceToken, ^{
+        c = [UIColor colorWithRed:120.0f/255.0f green:199.0f/255.0f blue:10.0f/255.0f alpha:1.0f];
+    });
+    return c;
 }
 
 +(UIColor*)iOS9lightPink{
-    return [UIColor colorWithRed:247.0f/255.0f green:124.0f/255.0f blue:173.0f/255.0f alpha:1.0f];
+    static UIColor *c = nil;
+    static dispatch_once_t onceToken;
+    dispatch_once(&onceToken, ^{
+        c = [UIColor colorWithRed:247.0f/255.0f green:124.0f/255.0f blue:173.0f/255.0f alpha:1.0f];
+    });
+    return c;
 }
 
 @end
